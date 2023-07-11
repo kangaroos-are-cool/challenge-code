@@ -12,4 +12,12 @@ The program supports searches using multiple keys, for example
 --name newt* --assetId *303*
 ```
 will produce a list of all assets whose names begin with 'newt' and whose assetId contains the sequence '303'.
+
+The program can also be used to search based on ```status```, using either the numerical values which represent each status or their textual counterparts,
+i.e., the following inputs produce identical results:
+```
+--status 3
+...
+--status critical
+```
 Please keep in mind the keys you enter from the commandline are case-sensitive.
