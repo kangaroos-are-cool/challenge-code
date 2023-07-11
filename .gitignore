@@ -13,7 +13,6 @@
 x64/
 [Bb]in/
 [Oo]bj/
-.vs/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -117,6 +116,9 @@ App_Data/*.ldf
 # =========================
 # Windows detritus
 # =========================
+
+#more VS nonsense
+.vs/
 
 # Windows image file caches
 Thumbs.db
