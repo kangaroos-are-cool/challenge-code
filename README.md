@@ -5,7 +5,9 @@ For example, to search for all assets whose names begin with 'newt'
 ```
 --name newt*
 ```
-where ```*``` is of course the wild-card character. The program supports searches using multiple keys, for example
+where ```*``` is of course the wild-card character. 
+
+The program supports searches using multiple keys, for example
 ```
 --name newt* --assetId *303*
 ```
